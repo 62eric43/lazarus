@@ -1,0 +1,430 @@
+Technical information
+=====================
+The following list covers which files have failed the integrity check. Please read
+the previous linked documentation to learn more about the errors and how to fix
+them.
+
+Results
+=======
+- core
+	- INVALID_HASH
+		- core/fonts/LICENSE.txt
+		- core/vendor/jsTimezoneDetect/jstz.js
+		- core/vendor/showdown/dist/showdown.js
+		- core/vendor/showdown/dist/showdown.min.js
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp037.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp1006.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp1026.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp424.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp437.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp500.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp737.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp775.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp850.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp852.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp855.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp856.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp857.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp860.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp861.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp862.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp863.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp864.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp865.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp866.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp869.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp874.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp875.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp932.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp936.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp949.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp950.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-1.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-10.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-11.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-13.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-14.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-15.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-16.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-2.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-3.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-4.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-5.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-6.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-7.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-8.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-9.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.koi8-r.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.koi8-u.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.us-ascii.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1250.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1251.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1252.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1253.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1254.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1255.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1256.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1257.php
+		- lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1258.php
+
+Raw output
+==========
+Array
+(
+    [core] => Array
+        (
+            [INVALID_HASH] => Array
+                (
+                    [core/fonts/LICENSE.txt] => Array
+                        (
+                            [expected] => 4cc5a12bfe984c0a50bf7943e2d70a948d520ef423677c77629707aace3a95aa378d205de929105d644680679e70ef2449479b360ad44896b75bafed66613272
+                            [current] => 98f6b79b778f7b0a15415bd750c3a8a097d650511cb4ec8115188e115c47053fe700f578895c097051c9bc3dfb6197c2b13a15de203273e1a3218884f86e90e8
+                        )
+
+                    [core/vendor/jsTimezoneDetect/jstz.js] => Array
+                        (
+                            [expected] => ece74dd6f5fc9587cf167dd17df51b66f70bd711f445da8d1d21bb1b0570f3c97b25d3ece110b08e2f2b294369d9b775cc169b666840a5b769ba338aa6d73d48
+                            [current] => beae737d18aae6e8c5fdfb0bf3389b687ec746e6b334185710cc5b8f45b73b3c57442db541807ab440b55517ef2d138f4c40148abafcb6462481016b617e1f53
+                        )
+
+                    [core/vendor/showdown/dist/showdown.js] => Array
+                        (
+                            [expected] => 6ef5755756128cfd5f6df2898d394d99d9d43b65e9b0b61474ac26cf9517062e54fb1e34af1f49a40d28a1050c65fa73d4c69a042d3274d2e80baaf4b22b4f51
+                            [current] => 17206c0521528c665595ab14ebce161e8a8cb80599f3d00ed6bc6677bec28c6459ccf34fc846c9709ee1035be0a0008072ecaa6a750d59f40c3a3982e2a257cc
+                        )
+
+                    [core/vendor/showdown/dist/showdown.min.js] => Array
+                        (
+                            [expected] => 2f4de4ce70ab34e7d5c4e528bd1e8449f0b3f467e7cbb8228545ff86e55b401f738ce0ed629c5a56d21a024a5eb688b25767aa59bbf1307f5f892bf97a75fb6f
+                            [current] => d73777169e8367405bf701072740543b57fde48a853c7cc6d1fcfcc12da9a8b3886733bd142ce5ad1f8cfc7fd7ace45d14766c1265c1819db4c03a8375e91875
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp037.php] => Array
+                        (
+                            [expected] => 3eb6774b1094a98651ce62957aac15c2621d6c69a030d9e51af7d62c8d49272025c1c9fac16413dae934fc5e90e43cfd0c9bee61ed1e8852fc632f890ff43311
+                            [current] => 6a9e49578f668adc2634bcaea89b0b521ce4f3699fe5454c4b4952d9ebafe727c64a7bcf08ccb056c10843ad2e63885babf1b34a9ebc3b83339f69722f78cfee
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp1006.php] => Array
+                        (
+                            [expected] => 9c0c633773e7843b63e5d4bddef978e64e6020aa2d0e9fef153a5cb746bdb1e386bf74ac84166d2e6c2b2874b39219c7b654f1a3a712d9c47983b7288cd5c7a7
+                            [current] => 7cc98de9c4a1bb4328ce476934652eee5917b026a351e97f77602c425c4deb4474a165213e6f61898928dbcf82bc4e554a9e3d06e1164e47e640c3a1e8a7a5bd
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp1026.php] => Array
+                        (
+                            [expected] => d9f949d227c71363a2cda7492fc34c4d312a7586d131ad8665f7f1c3b9b3244494b3d812f20f205595a7ec7945ca76ec798404b3b0f23bf6ec350b985c75c957
+                            [current] => 00e54c89989b594212023a9153546f4a56419cce786cb458960abab525f3d2fd5644754666e07af39578cb8fb9b219bebe7b0354c3246599d751e80cc3bc1d90
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp424.php] => Array
+                        (
+                            [expected] => bf8ec8a9f3204bf1187c9a73786438d7e256bed74b89137ff90e2e95eb14f3460aee665fe1b18e4b39faa8ec5b2704f97390278431f506999657ca60065fce7b
+                            [current] => 5a0b8428109dd5447d910df2d38f3b25cf635acf42353a92c4e0d8402f7e707aeb75cec9d08c853616e183222f165e5c3da48ca9ae52709df48a105ad3232d4e
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp437.php] => Array
+                        (
+                            [expected] => 4f46488e77f1a05279055e7f736fb53e7dbc510642c8d2bff9ea62b61e557c22382d24488eacf819b22e9aa641f891b719d2fec62e19419c5d1982b45d483539
+                            [current] => 998c98e4b3a5db6f0e8ce314e4fc7e7def250eee8eb0f5ddc7d73aa5f871bf3539b1388c82204a05c6d624b603a3ed273236e4ca7787c245120ded9562f8d99a
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp500.php] => Array
+                        (
+                            [expected] => 71b1a6d7249f88583e29f7339c2b2bbb216b1e69cbc88cac100dd1c54daf6b4a38945ffca6edb8234f7e5d44a9d7e0118b044e90095e3ea065692c6a3e4463d8
+                            [current] => 088b829c72847059cfaa27a7f3fb242034b60319776b463960493e746494c17542347d9e7c75b355a13900ab04d3ae7c52f3be0f66d8da2586be28abf4cc9583
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp737.php] => Array
+                        (
+                            [expected] => 4eb189a545ac80fecf41f6ec79560673e52b05ddef2841aa3bd60322afed1f316d9d6c1c6fda1275dcd4c9709afcc37c9ae54e3bdb74684fda28404f812b5b6c
+                            [current] => cccbbbe8adfe019f58223c82f5eb836f2ff7d02e7e5bf485c3a10c65649d2d7aff8d8e50e80e3922d5cfed33c88b713de50896e0030ab6b3ccd2f0328f4e9029
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp775.php] => Array
+                        (
+                            [expected] => d2b95ab3e3af883a2ae4f04b955b976447b58567cd9f5138970f155b0cc05aae8cafb52600c4c0b10a793f9c97e80841efa9f92e411a92b68d7a9bebb99ea62f
+                            [current] => 95fc3b9bf19a63affff8782a298a559c3c4bf76ac525052cd15c512eeaeafd8a66d2ba201f028f84d208c2498941b07ba3a8bcccd38306f49e2f1b43f2828a5b
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp850.php] => Array
+                        (
+                            [expected] => b272dc834141fc1fffd871931f688225032ea0c3e3bb7b06ad093ad8ced12fcf84482fa956cc8d2f67068ee2831c03e09b8fa17af479b27fa148a4b6e28e7cef
+                            [current] => 2e87e8377ba688ab41728bbb7141a2d6144ef2d3fff5ea32726e05d05d53778d73a663591127241dfd9baf0e02a32a960073b69ef2d9fdb04662cfcbd0ff4d2c
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp852.php] => Array
+                        (
+                            [expected] => 1de793b4c9aff313a8301c5b4ec716b77887cbd059ed9f3852aef6261f316925f8e56de85fe41d5e0aeb3969103480ff9169a5575290392f17c7f8ccbee33570
+                            [current] => 46392b8d03b74f43e1c276f6544769c878bc4a137363eacf64e0c924174543e2aa2e0db91d22fc8a068c5fcd4af81c49381b880c54da6a5e15dc847343c3af06
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp855.php] => Array
+                        (
+                            [expected] => a6aae8376045ff1de2f9cdb053666ac60cfe3de8a54059f7cab2405e06f6c8a8f1a01fb4baa35d57b01d1363c153016fe542aef360bcad29f6eba18483d6dccd
+                            [current] => 3e9ba8f30791646ef2383c42b71944905de6fabfb94b77d1a6bd0a5c03345ae86cf8dc8c7ed37b2710a7f63eeb7245d6ba9b0c8dbd1ec6b47ceb6607729486ac
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp856.php] => Array
+                        (
+                            [expected] => 1e8828baf0de76666cb88ff9f44c9f6ffcf56398753bf5ae8e91b54285803e3e6ab44a1c4627dc155b98f4ab3acab37ee3857cc5c59ac325a615674ebeb41a1c
+                            [current] => 39ec87e2ecd3d33ff76610b67118ae61da0038ff34e967b15b2f871b89daa86c6ebdb75af9c43dfedfc53bb459ec884fe7ad31c08943c9f0a2d42fd3d2307746
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp857.php] => Array
+                        (
+                            [expected] => 9ee4c18f4ef7c06207175d602b63d37d42c358edf2e9dcc01e737cd38d66a2e8d44dce3f571ead34d7335f2f4d32c958321cbe2fa7ef62372347ee56820e96f4
+                            [current] => 7f6bc5a81e42497b3d82501df979f11860a58c5d2e0de6e66b8816e128098584a68b8e292de69410295233e4cad74a27c9a7e5d68071d70ed3024fa5f7d2afec
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp860.php] => Array
+                        (
+                            [expected] => 52f24bb37c30bf470a2f6e81bc618e58d2458c163332efb0011c0c86689479ac5ca01401363ac620ccbb25b74512909915c6ad50977cf146d2db9c55aaa84324
+                            [current] => 0af04e04023f04570f33039e210be489713e3ca8708d989136a4c6b4ec0b70804e36b60a0b12aec824b7afb78dbb07d3a201c9fcf90b3e7968abd24f4b937772
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp861.php] => Array
+                        (
+                            [expected] => 5f5a0a8c858072887c413a460fe8f908f8a5493406bc6d63619bef6b7a3dd8ad250a78ebcb20631cbfe3a6bb484d9bf279cbd707d7f9e4fc7f15bf68337225a1
+                            [current] => 4b02d9eb1d207b8863708e6212306dc03fe37ea76ce22e8f0fe898134366232aedcf02717699a2504bca1732a68aa81503a515748eec7f0367a80ed478e27ecd
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp862.php] => Array
+                        (
+                            [expected] => 3e857b7d18aa6dd0f846ac32bb93c18b451b1c29730186d64da982c258de7f8b0d1f32fe5b57dbae990885a0ccc5dff43988cfb56e4775139284b5fde28353cf
+                            [current] => ff9b97efb1b60838277be999eacd4861eaf06bae8671b82c16a3ff632ec8483543c8aabd8cd5a91767ecd0384257a66b62e9516474b95d2fd60580e53ab93b2f
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp863.php] => Array
+                        (
+                            [expected] => c6ff80758828e55a132c394c1b7781b0edf3e88e47fdf5cf0e6b6075b1c1d47c1de439f27897aefb0a96362170464da889bb621f2fdbbe28de2e94f6b96eb770
+                            [current] => e856c19eef82718c59d00c0786eb59c243c4243ce62fefeef27b34b1677593228b6563c0e685e35acc847ed7dc6975d924cdb4c302f9566ba1722c34ee8f84c7
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp864.php] => Array
+                        (
+                            [expected] => 09bfc61b56cbd7e5ec57762a894c31955ffe34e1e454a68e20c7dffad9b835062a0ee135fa52430910c11cd175589dcbfb3c67fc4dcc6e4207d8685ae53a393b
+                            [current] => 46cc1ec94b05908a71bec7a591eeba7cb2e619e5863d7cb90a5750ad36545cc932861aeaae3a9365ad30f4a3e2c308d2117355f1c78d51af151b5272a5f3f61a
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp865.php] => Array
+                        (
+                            [expected] => bb911d08c9ed0aa6484ccd1a1b1b79a0f810d919a0f7356b392283cd0c72ae8d46e05da9472cb18c75954021cf523f789de54aca5dd3079dd3c8995cae9be4dc
+                            [current] => e74c3befaee29709480f33e2f95b23914b4000b3a9f12d6249029ece27b21b31f3e754cf2a0493d513a20615e5c94f63570ab82c6cd7ed000a298ff236fd31cc
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp866.php] => Array
+                        (
+                            [expected] => 280503898e965e8b29ddd6f7fdad23de6cdf3f4cefd50ddad7ee66b3840e413f5e6c4eda70ded85b3163b2cc5b1dcdd33b766c47538992545401650258e63305
+                            [current] => 8796ae830f5fe2fd7708f8c45e5506bf3644581e13a2cbe161218687ca4f68d32cb73461ab07da552c7c52e06e4e2e8eadc61bbd1730b7c467661c7d133f95a6
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp869.php] => Array
+                        (
+                            [expected] => 74af27d2e4975bec7fbeefa59713d70c6ef867576aff0b5a980515518b6f1b93f2d59d0cf5d0520e77a668e5ce1c89b23a8b8964d304e004b4f4071453124e91
+                            [current] => dd6b9c47abfa3ca9f0aa3672a95b6f21e53627b40469ae50b7e0c1f8b0656edf6bed5487d98fb1c20c59de93c944c07e4b1376e836bf5c23e70b1f998cba6956
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp874.php] => Array
+                        (
+                            [expected] => 551617f5ca10df84db841f31ad98ef74e6ab8091c4bfadb475d4d9ad2594bfd38f61ed48b6d0e6c77d324d7bdd024ccf0ad64e84b1d63f65f906184c7803582d
+                            [current] => 5c11beca73796a3c38a6d8c8f75a0abf3f30cb5dae12ba8c987b4e9cdbf5e36381f7fb347964054676afcd5efab9628cd53b62d928c76aca8dff189c5a62fdd9
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp875.php] => Array
+                        (
+                            [expected] => c2f4ad8f7dba18f3c58f1923d2a8d53d706f0c7e61a9fe384e9bfe5c63af0f6e3f13a567b462d745c2d132e840252efc37cf66ecf4a5fde042467ffa124c7295
+                            [current] => a31db1836b8440558f648a894cf306dd00bf5bc4df684cde5d1ce91deb9e4b39eec3b609cea2948a4a7f7bdb8eae0141dfa1689be1516976f62a0ef6f14b7b0b
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp932.php] => Array
+                        (
+                            [expected] => 99b079ca46dcc28c290b6676c8b0b152faf38cc445cf95e2794dbd090c9b49aedf69a2f5a135e1539dba4cb4fcfe486275e0449296bb019b7ac965f8bc09ceb9
+                            [current] => 2a9b1e1ff6aa4ab3e41d34fe6397f4dd760c571867da01b7a55a4fc57a35a16cd1ef6025f3c6df648c34551c054fb6eb576dfa0744fa56d53e0bff9946fb1d2e
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp936.php] => Array
+                        (
+                            [expected] => fd9519dee2a6f11a4b629c1ed780310a6459a389d41895281775b15b4f4368ac9276bc616b4688ebc5ad14288faa53b1feec3c6e4533412ce3d96da88bfc0806
+                            [current] => 93043a17b800dd4321a16693c9fccb87f4909a015c2d54cf4d9f097886eac1b67baf6ba3d7173edf9ceb0ef2f266e795e090bad62a7a47a4e3a201efe194b6df
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp949.php] => Array
+                        (
+                            [expected] => a3a13dc4aab4232afd15f3056917667a0a69bdfd6d3331c9074111865dd6ce6eadff63dfcd333f4f7026b19efd666bd1e67f2cdc6bdb6665f12a8cb7c93530c3
+                            [current] => e06e03ad8ea9a54b46a6aa31a9fdcbe1eea9c41b4b419f9bd81a84410012fad7a02e684a063282ce8dc0693856a366f1fbbc630418b44595a4892b53155ad0b0
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.cp950.php] => Array
+                        (
+                            [expected] => 01924f0a6cf7ce27c9e69ea347e5ce1b13f9fcd90d9e8df79bab51a9b0df3418e73aeac8f05a5fe0ee72e570ac7bf9d33ad6b5cb765792953c688945cfbbd6ef
+                            [current] => a5b479f8b2d371a51930a9a3a6a10370908bb56da99d3b14fc27cca50a45a01e1b5ef846b099afe8704892231517858698240bba0ae19a97cadf9f7a0a64a7aa
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-1.php] => Array
+                        (
+                            [expected] => a266104475ae3376d63de0c28c5ab6a38e6d7c85a2d4248aa386c930d0a259e8e05c678a4ca607d984be69a36490d945c8975f40989a4015d24361febf9b7b63
+                            [current] => 61e95ca27cbfa84065f3f739dbc5ad762a478360d89a8c83819afb2ecd558ae95b47942d6113d4d1682c81d9f926ce1c5211a59bd2c789bc006bb776f3073356
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-10.php] => Array
+                        (
+                            [expected] => 9723f5464501fc19434d04587e86ddde9c7ca4ef34c6dea646163a3307499f47a0f4f3589dd5fa346f74673e56133af2de53c632b2ae8a6cb65584bc106b7443
+                            [current] => b1326b80b582a771eab586cc485c7fd0f782f6aa90cba8b455313ad7b8a3c3ab8e84092d87ebaa18ca14b67523929b6deb6e54c71f89266e515cd7351b9dbf26
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-11.php] => Array
+                        (
+                            [expected] => 8887a27150904d1fde143270dae8e2295ef6924d7926208f2a0248cb492df38a027f71894a755d774608f646c3e36394c8879de0e6d5c825823c2a25f7204b8c
+                            [current] => 671ed177bf70c1994a2789d7e03d2e55a78b384c0f04f313ab60665db4d875b1e601af0968fba844406b40f1f42622567ee63acb4b3f538b21333dba5e017470
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-13.php] => Array
+                        (
+                            [expected] => bc1ce006740ca0ebe13c6ecada909273697afc156c3a965dc1c19919d2519fc74288b71c10b2c1e10e5df5c69bcd484098ddd1e03d37458c4a129aac4ab176f2
+                            [current] => 8bc8fb16b49a3a0911fec92698d734f3ab4a51f2569929444145c5a15e55c9e689c0704879fc1de0e688c86a7e1030a6ec3fa6acb8b62dece8ecc3d5fc5616cb
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-14.php] => Array
+                        (
+                            [expected] => ad6dec3928fc1d13db80eaf86dace761d8305cdc1078a8d41ac97ecbee575b1df51f31caf1d4d49b63c1c109011673440d34df4a96e62dd07422528e27689e99
+                            [current] => fd3bfb141fbec7f1f1ad7d462a2a512ee3d183cd1731f8667f117d4483c88f64dc4f1d95199b1150b6f9030a59635badb3a4a60b644331fb33d38ccea7e82288
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-15.php] => Array
+                        (
+                            [expected] => e0b6f0766e69cb2f886e4c0840d85997b923cad5ed2217121538fdf21158d85ec17f18e07f765e836dd71c5db10ca8b9bb4bab9c65aebf6b08f7fdb3b760838a
+                            [current] => ceb79f02a5866c56d8047a0c4af2ee2db70609698dd002607bb2b73603e0ca80fcf0ccd20ba92dff5e92edaad3c076df0fad24f3f9cbff8da6560842522d2345
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-16.php] => Array
+                        (
+                            [expected] => cbd191d084781f5834424493b47da778d89ef954eafc6ec9caf7dd2f16a9ee99533b1cbeb339ff3038db4ca1fd4c6ce64c02b352f1cda7be0e4c5f1ee6b47917
+                            [current] => a281e2a980db699c3046426af10588708551d42deace5b3c5f7120a3882b5f7d8ff604635bd8515dacfcc247c39fbcd1c0e8bb4b614b26442ecb5ee3f94d144f
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-2.php] => Array
+                        (
+                            [expected] => a3612792e6b638dacf42867bc3e5c96c3db85ab29d487273780d04b3522679e3c6373c2699b07fcebef3aef31a921fc59b10381460cb702f5d3f4d2cc5251122
+                            [current] => 7bad55a68e0a2bf27b7942357bb70044442ddbe7618a885de813778d830d3e464cbefb63b2e9c4fd8dfe2a64a2d9ae3bd8d970ab82f7cc2d0e1f2e2c29a63d3a
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-3.php] => Array
+                        (
+                            [expected] => 8605d524e94a76cdca93ba3e014aa360fb9828775c0182d34ef7af7aef34ce2c4656a364c1d57859dc754e2f372c7ce9e4421acc93eb4fc9b605abbc2b3b2638
+                            [current] => 113d940c7ebc88905f47c123050f80053ad1a000f1426da319a366f35b743c1b446d198ade4308ab69affa9a37b15e77a4bcdb2a40efbc3fcd669d3e547f5672
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-4.php] => Array
+                        (
+                            [expected] => 5992a6c8dd9866a78087e844941b0fe1d0064347af6c9cda8e10ccd54e7503527dd2b810a470bef47191aedf7bb913ddf0c6093d6fe65c383eb694ac5194ba64
+                            [current] => 21929c8a34bfa15900dfa1dc1b58137c00eee01242744b5f7f82e5abfa05fc37df3a4afe3e96b06badbd8b3951aec65db20ccb32ae6122f6206a50b237eaea4e
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-5.php] => Array
+                        (
+                            [expected] => 5e89142a06727d48990c3176896d0161a15bc85aadb525a0b1286b0c5e26a510f81b6b7442ebe4efd5bf09600cb0ec71f9c76c7a90deacfd38e3f1af334fe1c1
+                            [current] => 2d5c921588f0728c4e757c7923decd627beedc2283d08ff6ae63ac3e17a1b79689f689c2bca45b02319b89dfb2358afb58fe5b401a5e4e750affe81ab20160e7
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-6.php] => Array
+                        (
+                            [expected] => 5495b753a45f5420954b93a26c5f1ba7e4c6fa9767004c3425318ffc5a829ee68d9364a2a04c83c33a0ae33e620156abee5a461d27032d109edc745afcf60012
+                            [current] => 87e9e38ebec7aa5a8e3a4c608310a00064dcd79f7f7dfa3fec01c7fbc6cd3004773e9675d63eb421108388e7738240f99c292ab179f858321e2bb9a66802f311
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-7.php] => Array
+                        (
+                            [expected] => 4a1f8fef17e8dcec21f384961dbdfd51af85cd9769167d45fbd615027e2a83c9f94e3cace898a20b188f0913ddfa2d598df5c4961d6b543416d2a9915dc0ff2c
+                            [current] => da12838115f9f96bee8cfa85341196af52892c1b1184b4fc4345c6dfb4bfacc80d8564887ea642b437267fce43d543f56eb22860f93cba0a6ee3df1ad36ebdc7
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-8.php] => Array
+                        (
+                            [expected] => 4e8cb2297b82509a4cff0adec841238b875516e92fd770b8b716c417c43da54637e6729c430e233a3e07abbbf944f4bd5c79f351e2a4bb68a5ab6af24392c945
+                            [current] => a667972fa69f4e0f839a2e4d630a64d7c1044e26c95b36229c0b00a3b656b1ad25a59c624a59665b5698f090854b18a853e22c277e1237d2219ecb1d9d96aaac
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.iso-8859-9.php] => Array
+                        (
+                            [expected] => cd1282e037759cad91cd000b529e421a0e289add928a7619f018cdc56617a5d047be82bdf0bb39de4cb5bd2eab24040168d281ddf54723824e23dcfc5f4b92da
+                            [current] => 854e5f6778573a8cdf121ab0a864b19a0795b447ac70310e5d88636371623fc7c4e3106a0af6d6dd03ea9906ec72ea6a7ebc8d772c4a49bd7fb61ce349c482c8
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.koi8-r.php] => Array
+                        (
+                            [expected] => 102f1de144ab94e45f10e01db23b8976ec4adac988c037b94e1e7d203305114ae64b612cddfe618d70d595fd8097479fa606e1b6986953e178b5690874473a79
+                            [current] => c69193c4c770c6ebd5c2d6dbfedaec4d390f408d026f4d451016b61342344a03e8908e67364d3f5fd3bc35e6771398f94eefb4bbd2fd3ce09da98c4f179c1904
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.koi8-u.php] => Array
+                        (
+                            [expected] => cee3fd6bb7c967d799db90cf3e055d98dabc3bc9a8b0a181ae9ebd8f2d335038d33f50afd821f789ea6950128acc4721db5f9f1efa97008011de06e7d19df89c
+                            [current] => 5d740a198a2553e7b24e1f298d83b323cf536f403b6e21359425445e7ffd57d8dae4ae1d872ecd5c0a587ae4ffde3261987ff8eff3ac8e5e0c713d55217b25d7
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.us-ascii.php] => Array
+                        (
+                            [expected] => b6db757660682e8034656788b2c7c725db93badddb76328fda0a4aeddaded7531cde4f04ae701e3e12b0b1d30a6881620937b6097f2b6fd9d26f8f60a9e89f0f
+                            [current] => ec8aac473fdda8cafec27feb6b090f113c8dc15d7ef9de8e554f409874909dbdca83b4da5296df879bb9b8daed3f1db8bff29f0630c62b0a0927cac1d3934765
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1250.php] => Array
+                        (
+                            [expected] => e6abc91869fb229dc4537e07c0fca6d28c48bacab550c7eb4a7614d08591dc85e6d26a36c1733d9be2f0f48a2256db7b62d6f408eb52c7d235e45f1ae156e7a1
+                            [current] => 356bc8d075f98d72ae43d78154efbaa6552c5d1e1211520ac1528f5f15bde8ac7c51e9ddaf04a9f82429699059a81998cd509ddb98c8cb221f624557b3b2d5c5
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1251.php] => Array
+                        (
+                            [expected] => b775bd6b4ace2b8848ad8385a171e364e86d8cf8b176ad33a9bf8b0382f2a217b2708d3ef8f1410a78bd5907d8b2aba233c502ae9b0341613b3cdc085129cd2f
+                            [current] => d61b27fe345277cc12bd86c0c6a2787a0d0841f48146a5542d34642febaa3cc9dc72bee53ce8f68aad9cd9e160d1fb6d54feed8c5c34e0a07ef0e2da051fe784
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1252.php] => Array
+                        (
+                            [expected] => 21c3f53c15c11bb7ee98118df9c924f1d4734cc6bbb2eaa28ddd723671e2f9f53f3064f37ab62f40fb92d654135cece2f204b2c819f2317ea9cdbbfa72f96f98
+                            [current] => 696a3eee83bbc8050d3a21fb2820d14bc0ef455080346480f4142e72f135cf7caf48c83e8898d09e71a0fe70d3ccd9e5dae87cefd0812b752869b7d1be0020a8
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1253.php] => Array
+                        (
+                            [expected] => 15d9ad275c4a51ba0fb2d617451e8241169a7f2387d37796b891c8538822c5fdfe9fecda18d79c92742a038d9e5efb71e341300a2f60c4ce19d577ff10e1ee21
+                            [current] => b0beeb2ea71af1d80375aff85aeed6282db7369448007df77902ce88d8c18ba0d8affbcfcf28d14d39c625d0319baee4831ceb350bdaf2a93d44f1111f6745d3
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1254.php] => Array
+                        (
+                            [expected] => 61498f90966d1d5d5876ff395fe3c527ed01295ac22afb1a106f90390a4d851c1d0f4ba8fef6979816e8c2ec0cf119d7759d4721e910f605d529b89f3415c845
+                            [current] => 3c30a9e33c7a9e94ec0d0d9f6dbce3fe776dc75a7e2cd482f170f5b5066ca9f06e1ddb1e43cdf5267f33be071f4cf344bc756e1af8ce4e616db7db99f0fcd3f9
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1255.php] => Array
+                        (
+                            [expected] => 5b9811a4241b8792042a2a2e1e263a981d5c4c8c67ef01b00c788e2d2805d143c021896e4f85f76efc8509b7c6539330c79b265575a9853fcc6844d72154067d
+                            [current] => 664fc98a8266190e803437f699125d763c955ac1ae3b3cd1da6ea97f0dec5d4e26aa87d98b0c709d1619b6e654a73dc58eede5d29e484879e4f199d388df9fbe
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1256.php] => Array
+                        (
+                            [expected] => 6b76a5223c9b8754d9f571c06d891fce2337ca338733d93c4ed6433c668cac3522f2e00c635d6e910b6fa57a2bafb522eed8247ddb7b88d2c8945989cd48369a
+                            [current] => 10df4471e76160c6ce9424290cb557ba0fadb76732c7f693f4b3dafdeb19c85b1ca309436d1179aaeda63496fcf0c775b59a0c6e1a9a9f7ede54b5ff8cd0040d
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1257.php] => Array
+                        (
+                            [expected] => fed53a7313124142ca0774aceb6507775660d39967058ff5248864355c7d345e5698bde66e981c10e1b143a6a9d9e4981056254ed3d45e851a7a611c6890400d
+                            [current] => e43ef6da9b56801ea9359c86ee3aa316be1e4735e0d13619987181dd8d02946954b4de9fcf2a1a4f602ddf4376825abf237e5b3b59fc5330e1428383881b25e1
+                        )
+
+                    [lib/composer/symfony/polyfill-iconv/Resources/charset/from.windows-1258.php] => Array
+                        (
+                            [expected] => 944c7b23399b0366bf233b009d6aab2e887888c773b92fb8e79666004d9066160570eb1e1842be2e419ac13f1760a697794d909bc8ee66cf84d4c1d6f4cb6125
+                            [current] => 6acc6da9bfba947cc0e2083bbcf2dafd2fa635a079a88432d4b0904628b2d73bfb3f6d24ab8c48836974bef25f364698c7f81f375208e30f3d7a05183f1095f7
+                        )
+
+                )
+
+        )
+
+)
